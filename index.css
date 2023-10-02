@@ -18,7 +18,6 @@ ul{
     color: white;
     background-color: rgba(0,97,255,255);
     padding: 5px 10px;
-    display: inline-block;
 }
 
 .mt30{
@@ -35,6 +34,22 @@ ul{
 
 .mr5{
     margin-right: 5px;
+}
+
+.width100{
+    width: 100%;
+}
+
+.inlBlo{
+    display: inline-block;
+}
+
+.mt100{
+    margin-top: 100px;
+}
+
+img{
+    display: block;
 }
 /* Header */
 header > div{
@@ -118,9 +133,10 @@ h2{
 
 #slotContainer{
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-#slotContainer > div{
+.column{
     width: 30%;
     border: 1px solid rgba(215,215,218,255);
 }
@@ -140,4 +156,36 @@ h2{
 
 .colBlue{
     color: rgba(0,97,255,255);
+}
+
+#slot4{
+    width: 100%;
+    border: 1px solid rgba(215,215,218,255);
+}
+
+#enterprise{
+    width: 70%;
+}
+
+#ufficioVendite{
+    width: 30%;
+    justify-content: flex-end;
+}
+
+#parthnerDropbox > div:first-child{
+    width: 60%;
+}
+
+#parthnerDropbox > div:last-child{
+    width: 40%;;
+}
+
+#parthnerDropbox img{
+    width: 100%;
+}
+
+.btn2{
+    color: rgba(215,215,218,255);
+    padding: 5px 10px;
+    border: 1px solid rgba(215,215,218,255);
 }
