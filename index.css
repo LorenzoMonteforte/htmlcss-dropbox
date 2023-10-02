@@ -1,0 +1,39 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+/* Header */
+header > div{
+    width: 50%;
+}
+
+header li{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    height: 100%;
+}
+
+header > div:last-child{
+    justify-content: flex-end;
+}
+
+.btn{
+    color: white;
+    background-color: rgba(0,97,255,255);
+    padding: 5px 10px;
+}
