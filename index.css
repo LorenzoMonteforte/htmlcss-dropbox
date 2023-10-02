@@ -13,6 +13,17 @@
 ul{
     list-style-type: none;
 }
+
+.btn{
+    color: white;
+    background-color: rgba(0,97,255,255);
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.mt30{
+    margin-top: 30px;
+}
 /* Header */
 header > div{
     width: 50%;
@@ -31,9 +42,40 @@ header ul{
 header > div:last-child{
     justify-content: flex-end;
 }
+/* Main */
+main{
+    background-color: red;
+}
+/* Jumbotron */
+#jumbo{
+    background-color: rgba(181,208,231,255);
+    padding-top: 50px;
+    padding-bottom: 5px;
+    justify-content: center;
+}
 
-.btn{
-    color: white;
-    background-color: rgba(0,97,255,255);
-    padding: 5px 10px;
+#jumbo > div{
+    width: 70%;
+}
+
+h1{
+    font-size: 3em;
+}
+
+#infoPhotoJumbo > div:first-child{
+    width: 40%;
+}
+
+#infoPhotoJumbo > div:last-child{
+    width: 60%;
+    position: relative;
+}
+
+#infoPhotoJumbo i{
+    font-size: 2em;
+}
+
+#infoPhotoJumbo img{
+    width: 100%;
+    position: absolute;
 }
