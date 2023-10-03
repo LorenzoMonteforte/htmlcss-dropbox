@@ -282,3 +282,27 @@ h2{
     background-color: white;
     padding: 5px 30px;
 }
+/* Domande Frequenti */
+.domanda{
+    border-top: 1px solid rgba(215,215,218,255);
+}
+
+.domanda > div:first-child{
+    width: 90%;
+    padding: 20px 0;
+}
+
+.domanda > div:last-child{
+    width: 10%;
+    padding: 20px 0;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.borBot{
+    border-bottom: 1px solid rgba(215,215,218,255);
+}
+
+.pb100{
+    padding-bottom: 100px;
+}
