@@ -192,6 +192,7 @@ h2{
 /* Dropbox Businnes */
 #cardsContainer{
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .cards{
@@ -201,4 +202,83 @@ h2{
 
 .cards > img{
     width: 100%;
+}
+/* Clients */
+.column1_3 > div{
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    align-items: center;
+}
+
+.column1_3{
+    flex-wrap: wrap;
+    width: 33.3%;
+}
+
+.column1_3 svg{
+    width: 50%;
+    fill: white;
+}
+
+#client1{
+    background-color: rgba(173,216,167,255);
+}
+
+#client2{
+    background-color: rgba(97,8,43,255);
+}
+
+#client3{
+    background-color: rgba(0,147,206,255);
+}
+
+#client4{
+    background-color: rgba(255,28,28,255);
+}
+
+#clientsContainer img{
+    width: 50%;
+}
+
+#centralColumn{
+    background-color: rgba(245,245,245,255);
+    width: 33.4%;
+}
+
+#client5{
+    background-color: rgba(213,0,31,255);
+}
+
+#client6{
+    background-color: rgba(180,208,231,255);
+}
+
+#client7{
+    background-color: rgba(13,36,129,255);
+}
+
+#client8{
+    background-color: rgba(255,216,48,255);
+}
+
+#portaDropbox{
+    background-color: rgba(180,208,231,255);
+}
+
+#portaDropboxContainer > div:first-child{
+    width: 60%;
+}
+
+#portaDropboxContainer > div:last-child{
+    width: 40%;
+    justify-content: flex-end;
+}
+
+#portaDropboxContainer h2{
+    color: rgba(97,8,43,255);
+}
+
+.btn3{
+    background-color: white;
+    padding: 5px 30px;
 }
