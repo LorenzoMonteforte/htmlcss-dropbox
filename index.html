@@ -6,42 +6,51 @@
     <title>Dropbox</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->
-    <header class="flex">
-        <div>
-            <ul class="flex">
-                <li>
-                    <img src="img/logo-small.png" alt="logo">
-                </li>
-                <li>
-                    <span>Perchè Dropbox</span>
-                </li>
-                <li>
-                    <span>Funzioni</span>
-                </li>
-                <li>
-                    <span>Piani e Prezzi</span>
-                </li>
-            </ul>
-        </div>
-        <div class="flex">
-            <ul class="flex">
-                <li>
-                    <span>Supporto</span>
-                </li>
-                <li>
-                    <span>Contatta l'ufficio vendite</span>
-                </li>
-                <li>
-                    <span>Accedi</span>
-                </li>
-                <li>
-                    <span class="btn">Inizia</span>
-                </li>
-            </ul>
-        </div>
+    <header>
+        <nav class="flex">
+            <div>
+                <ul class="flex">
+                    <li>
+                        <a href="index.html">
+                            <img src="img/logo-small.png" alt="logo">
+                        </a>
+                    </li>
+                    <li class="hovBorBot">
+                        <a href="">Perchè Dropbox</a>
+                    </li>
+                    <li class="hovBorBot">
+                        <a href="">Funzioni</a>
+                    </li>
+                    <li class="hovBorBot">
+                        <a href="">Piani e prezzi</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex">
+                <ul class="flex">
+                    <li class="hovBorBot">
+                        <a href="">Supporto</a>
+                    </li>
+                    <li class="hovBorBot">
+                        <a href="">Contatta l'ufficio vendite</a>
+                    </li>
+                    <li class="hovBorBot">
+                        <a href="">Accedi</a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="btn">Inizia</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <!-- Main -->
     <main>
@@ -55,10 +64,16 @@
                             Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Businnes è più
                             di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                         </p>
-                        <div class="mt30 btn inlBlo">Inizia la tua prova gratuita</div>
-                        <div class="mt30">Annulla in qualsiasi momento</div>
                         <div class="mt30">
-                            <i class="fa-solid fa-arrow-down"></i>
+                            <a href="">
+                                <span class="btn inlBlo">Inizia la tua prova gratuita</span>
+                            </a>
+                        </div>
+                        <div class="mt30">
+                            <a class="underline" href="">Annulla in qualsiasi momento</a>
+                        </div>
+                        <div class="mt30">
+                            <i class="fa-solid fa-arrow-down zoom"></i>
                         </div>
                     </div>
                     <div>
@@ -112,7 +127,7 @@
                                 <div class="btn width100 flex jcCenter">Prova gratis per 30 giorni</div>
                             </div>
                             <div class="mt30">
-                                <span>Oppure <a href="" class="colBlue">acquista ora</a></span>
+                                <span>Oppure <a href="" class="colBlue underline">acquista ora</a></span>
                             </div>
                             <div class="separatore mt30"></div>
                             <h4 class="mt30">Punti salenti del piano</h4>
@@ -162,7 +177,7 @@
                                 <div class="btn width100 flex jcCenter">Prova gratis per 30 giorni</div>
                             </div>
                             <div class="mt30">
-                                <span>Oppure <a href="" class="colBlue">acquista ora</a></span>
+                                <span>Oppure <a href="" class="colBlue underline">acquista ora</a></span>
                             </div>
                             <div class="separatore mt30"></div>
                             <h4 class="mt30">Punti salenti del piano</h4>
@@ -224,7 +239,7 @@
                                 <div class="btn width100 flex jcCenter">Contattaci</div>
                             </div>
                             <div class="mt30">
-                                <span>Oppure <a href="" class="colBlue">acquista ora</a></span>
+                                <span>Oppure <a href="" class="colBlue underline">acquista ora</a></span>
                             </div>
                             <div class="separatore mt30"></div>
                             <h4 class="mt30">Punti salenti del piano</h4>
@@ -344,7 +359,7 @@
                 <div class="width60">
                     <h2>Più di 500.000 team utilizzano Dropbox Businnes</h2>
                     <div class="mt30">
-                        <a href="" class="colBlue">Scopri di più sui nostri clienti</a>
+                        <a href="" class="colBlue underline">Scopri di più sui nostri clienti</a>
                     </div>
                 </div>
             </div>
@@ -367,6 +382,22 @@
                     <img src="img/designit.svg" alt="designit">
                     <div class="separatore mt30"></div>
                     <p class="mt30">
+                        "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono
+                        compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono
+                        compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper".
+                        <br><br>
+                        "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono
+                        compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono
+                        compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper".
+                        <br><br>
+                        "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono
+                        compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono
+                        compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper".
+                        <br><br>
+                        "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono
+                        compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono
+                        compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper".
+                        <br><br>
                         "I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono
                         compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono
                         compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper".
@@ -408,25 +439,34 @@
                 <div class="domanda mt30 flex">
                     <div>
                         <h5>Qual è la differenza tra Dropbox Businnes Standard e Dropbox Businnes Advanced?</h5>
+                        <p class="mt15 fs08 paragrafo">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime alias autem impedit fuga error reiciendis similique, quod ex voluptatem eos, quibusdam necessitatibus, repellendus perferendis dolore? Porro blanditiis rem fugiat quidem?
+                        </p>
                     </div>
                     <div class="flex">
-                        <h5><i class="fa-solid fa-angle-down"></i></h5>
+                        <h5><i class="fa-solid fa-angle-down icon"></i></h5>
                     </div>
                 </div>
                 <div class="domanda flex">
                     <div>
                         <h5>Qual è la differenza tra Dropbox Businnes Standard e Dropbox Businnes Advanced?</h5>
+                        <p class="mt15 fs08 paragrafo">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime alias autem impedit fuga error reiciendis similique, quod ex voluptatem eos, quibusdam necessitatibus, repellendus perferendis dolore? Porro blanditiis rem fugiat quidem?
+                        </p>
                     </div>
                     <div class="flex">
-                        <h5><i class="fa-solid fa-angle-down"></i></h5>
+                        <h5><i class="fa-solid fa-angle-down icon"></i></h5>
                     </div>
                 </div>
-                <div class="domanda flex borBot">
+                <div class="domanda flex">
                     <div>
                         <h5>Qual è la differenza tra Dropbox Businnes Standard e Dropbox Businnes Advanced?</h5>
+                        <p class="mt15 fs08 paragrafo">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime alias autem impedit fuga error reiciendis similique, quod ex voluptatem eos, quibusdam necessitatibus, repellendus perferendis dolore? Porro blanditiis rem fugiat quidem?
+                        </p>
                     </div>
                     <div class="flex">
-                        <h5><i class="fa-solid fa-angle-down"></i></h5>
+                        <h5><i class="fa-solid fa-angle-down icon"></i></h5>
                     </div>
                 </div>
             </div>
@@ -441,11 +481,21 @@
                         <li>
                             <h4>Dropbox</h4>
                         </li>
-                        <li class="mt30">Applicazione desktop</li>
-                        <li class="mt15">Perchè Dropbox</li>
-                        <li class="mt15">Piani</li>
-                        <li class="mt15">Sicurezza</li>
-                        <li class="mt15">Funzioni</li>
+                        <li class="mt30">
+                            <a href="" class="underline">Applicazione desktop</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Perchè Dropbox</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Piani</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Sicurezza</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Funzioni</a>
+                        </li>
                     </ul>
                 </div>
                 <div>
@@ -453,11 +503,21 @@
                         <li>
                             <h4>Prodotti</h4>
                         </li>
-                        <li class="mt30">Applicazione desktop</li>
-                        <li class="mt15">Perchè Dropbox</li>
-                        <li class="mt15">Piani</li>
-                        <li class="mt15">Sicurezza</li>
-                        <li class="mt15">Funzioni</li>
+                        <li class="mt30">
+                            <a href="" class="underline">Applicazione desktop</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Perchè Dropbox</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Piani</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Sicurezza</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Funzioni</a>
+                        </li>
                     </ul>
                 </div>
                 <div>
@@ -465,11 +525,21 @@
                         <li>
                             <h4>Azienda</h4>
                         </li>
-                        <li class="mt30">Applicazione desktop</li>
-                        <li class="mt15">Perchè Dropbox</li>
-                        <li class="mt15">Piani</li>
-                        <li class="mt15">Sicurezza</li>
-                        <li class="mt15">Funzioni</li>
+                        <li class="mt30">
+                            <a href="" class="underline">Applicazione desktop</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Perchè Dropbox</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Piani</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Sicurezza</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Funzioni</a>
+                        </li>
                     </ul>
                 </div>
                 <div>
@@ -477,11 +547,21 @@
                         <li>
                             <h4>Supporto</h4>
                         </li>
-                        <li class="mt30">Applicazione desktop</li>
-                        <li class="mt15">Perchè Dropbox</li>
-                        <li class="mt15">Piani</li>
-                        <li class="mt15">Sicurezza</li>
-                        <li class="mt15">Funzioni</li>
+                        <li class="mt30">
+                            <a href="" class="underline">Applicazione desktop</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Perchè Dropbox</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Piani</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Sicurezza</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Funzioni</a>
+                        </li>
                     </ul>
                 </div>
                 <div>
@@ -489,11 +569,21 @@
                         <li>
                             <h4>Comunity</h4>
                         </li>
-                        <li class="mt30">Applicazione desktop</li>
-                        <li class="mt15">Perchè Dropbox</li>
-                        <li class="mt15">Piani</li>
-                        <li class="mt15">Sicurezza</li>
-                        <li class="mt15">Funzioni</li>
+                        <li class="mt30">
+                            <a href="" class="underline">Applicazione desktop</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Perchè Dropbox</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Piani</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Sicurezza</a>
+                        </li>
+                        <li class="mt15">
+                            <a href="" class="underline">Funzioni</a>
+                        </li>
                     </ul>
                 </div>
             </div>

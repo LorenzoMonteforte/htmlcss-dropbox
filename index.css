@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flex{
@@ -18,6 +18,7 @@ ul{
     color: white;
     background-color: rgba(0,97,255,255);
     padding: 5px 10px;
+    border: 1px solid transparent;
 }
 
 .mt30{
@@ -55,8 +56,34 @@ img{
 .pv100{
     padding: 100px 0;
 }
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: rgba(0,97,255,255);
+    background-color: white;
+    border: 1px solid rgba(0,97,255,255);
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+
+.zoom:hover{
+    scale: 1.1;
+}
 /* Header */
-header > div{
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 999;
+}
+
+nav > div{
     width: 50%;
 }
 
@@ -64,13 +91,14 @@ header li{
     padding: 10px;
     display: flex;
     align-items: center;
+    border: 1px solid transparent;
 }
 
 header ul{
     height: 100%;
 }
 
-header > div:last-child{
+nav > div:last-child{
     justify-content: flex-end;
 }
 
@@ -93,7 +121,14 @@ header > div:last-child{
 .width60{
     width: 60%;
 }
+
+.hovBorBot:hover{
+    border-bottom: 3px solid black;
+}
 /* Main */
+main{
+    padding-top: 45px;
+}
 /* Jumbotron */
 #jumbo{
     background-color: rgba(181,208,231,255);
@@ -189,6 +224,11 @@ h2{
     padding: 5px 10px;
     border: 1px solid rgba(215,215,218,255);
 }
+
+.btn2:hover{
+    color: white;
+    background-color: rgba(215,215,218,255);
+}
 /* Dropbox Businnes */
 #cardsContainer{
     flex-wrap: wrap;
@@ -222,6 +262,7 @@ h2{
 
 #client1{
     background-color: rgba(173,216,167,255);
+    border: 10px solid rgba(209,233,205,255);
 }
 
 #client2{
@@ -243,6 +284,8 @@ h2{
 #centralColumn{
     background-color: rgba(245,245,245,255);
     width: 33.4%;
+    aspect-ratio: 1 / 1;
+    overflow: auto;
 }
 
 #client5{
@@ -281,6 +324,11 @@ h2{
 .btn3{
     background-color: white;
     padding: 5px 30px;
+    border: 1px solid transparent;
+}
+
+.btn3:hover{
+    border: 1px solid black;
 }
 /* Domande Frequenti */
 .domanda{
@@ -331,4 +379,24 @@ footer{
 
 #lingua{
     padding: 30px 0;
+}
+
+.fs08{
+    font-size: 0.8em;
+}
+
+.paragrafo{
+    display: none;
+}
+
+.domanda:hover .paragrafo{
+    display: block;
+}
+
+.domanda:hover .icon{
+    rotate: 180deg;
+}
+
+footer a{
+    color: white;
 }
